@@ -1,0 +1,26 @@
+name: Office Email On Menubar
+description: Displays office email on top menu bar
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable to the particles.
+      default: true
+
+    email.address:
+      type: input.email
+      label: Email Address
+      description: Office Email Address . Clicking on it will initiate a outgoing email ( mailto:XXX tag )
+
+    email.icon:
+      type: input.icon
+      label: Email Icon
+      description: Select Icon to show
+
+    css.class:
+      type: input.text
+      label: Class
+      description: CSS class name for the particle. ( optional )

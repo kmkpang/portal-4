@@ -1,0 +1,26 @@
+name: Office Phone On Menubar
+description: Displays office phone number on top menu bar
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable to the particles.
+      default: true
+
+    phone.number:
+      type: input.tel
+      label: Phone Number
+      description: Office phone number . Clicking on it will initiate a call ( tel:XXX tag )
+
+    phone.icon:
+      type: input.icon
+      label: Phone Icon
+      description: Select Icon to show
+
+    css.class:
+      type: input.text
+      label: Class
+      description: CSS class name for the particle. ( optional )

@@ -1,0 +1,32 @@
+@import "dependencies";
+
+.s-office-email-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .s-office-email-icon {
+    font-weight: $font-weight-bold;
+    line-height: $navigation-line-height;
+    color: $accent-color-1;
+    font-size: 1.2vw;
+    white-space: nowrap;
+
+    @include breakpoint(mobile-only) {
+      margin: 1rem;
+      font-size: 2.5vh;
+    }
+
+    .s-office-email-label {
+      display: none;
+
+      @include breakpoint(mobile-only) {
+        display: inline;
+        font-family: get-font-family($font-family-title);
+        color: $accent-color-1;
+      }
+    }
+
+  }
+}

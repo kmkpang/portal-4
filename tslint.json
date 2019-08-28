@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-submodule-imports": false,
+    "no-console": false,
+    "no-var-requires": false,
+    "no-shadowed-variable": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "prefer-for-of": true,
+    "prefer-conditional-expression": false,
+    "max-classes-per-file": [
+      true,
+      10
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": true,
+    "disable-next-line": "semicolon",
+  }
+}

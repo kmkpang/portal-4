@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UploadXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <System>
+        <PublicKey/>
+        <Version>MAP 1.1</Version>
+        <SystemName>Saga</SystemName>
+        <SentData Order="Create" SentDate="2018-08-13 08:12:52" Type="Office"/>
+    </System>
+    <Offices>
+        <Office>
+            <Address Country="TH">
+                <HouseAddress/>
+                <Street/>
+                <PostalCodeID>102601</PostalCodeID>
+                <TownID>1026</TownID>
+                <RegionID>10</RegionID>
+                <Latitude>0</Latitude>
+                <Longitude>0</Longitude>
+            </Address>
+            <Information>
+                <OfficeID>114</OfficeID>
+                <OfficeName>IHouse Bangkok</OfficeName>
+                <Email>admin@ihousebangkok.co.th</Email>
+                <Fax/>
+                <Phone/>
+                <URLToPrivatePage>http://ihousebangkok.softverk.co.th/</URLToPrivatePage>
+                <logo>http://saga.softverk.co.th/saga.transport/map/-1/Office/office_114.jpg</logo>
+                <MarketingInfo>
+                    <LanguageID/>
+                    <OfficeDescription>&lt;p&gt;Description&lt;/p&gt;</OfficeDescription>
+                    <Slogan>&lt;p&gt;Slogan&lt;/p&gt;</Slogan>
+                    <Closer>&lt;p&gt;Closer&lt;/p&gt;</Closer>
+                    <BulletPoint1>&lt;p&gt;Marketing 1&lt;/p&gt;</BulletPoint1>
+                    <BulletPoint2>&lt;p&gt;Marketing 2&lt;/p&gt;</BulletPoint2>
+                    <BulletPoint3>&lt;p&gt;Marketing 3&lt;/p&gt;</BulletPoint3>
+                </MarketingInfo>
+                <ShowOnWeb>true</ShowOnWeb>
+            </Information>
+            <Images>
+                <DefaultImageSequenceNumber/>
+                <Image/>
+            </Images>
+        </Office>
+    </Offices>
+</UploadXML>

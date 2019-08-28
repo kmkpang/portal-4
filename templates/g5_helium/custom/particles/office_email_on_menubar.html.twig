@@ -1,0 +1,15 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="office_email_on_menubar.scss"/>
+{% endblock %}
+{% block particle %}
+    <span class="s-office-email-container {{ particle.css.class }}">
+        {% if particle.email.icon %}
+            {% if particle.email.address %}
+                <a class="{{ particle.email.icon }} s-office-email-icon" href="mailto:{{ particle.email.address }}">
+                     <span class="s-office-email-label">{{ particle.email.address }}</span>
+                </a>
+            {% endif %}
+        {% endif %}
+    </span>
+{% endblock %}

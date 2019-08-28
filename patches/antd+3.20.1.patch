@@ -1,0 +1,13 @@
+diff --git a/node_modules/antd/es/style/themes/default.less b/node_modules/antd/es/style/themes/default.less
+index f9c51a1..b1eed9b 100644
+--- a/node_modules/antd/es/style/themes/default.less
++++ b/node_modules/antd/es/style/themes/default.less
+@@ -231,7 +231,7 @@
+ 
+ // provide a maximum
+ @screen-xs-max: (@screen-sm-min - 1px);
+-@screen-sm-max: (@screen-md-min - 1px);
++// @screen-sm-max: (@screen-md-min - 1px); // <--causes webpack failure
+ @screen-md-max: (@screen-lg-min - 1px);
+ @screen-lg-max: (@screen-xl-min - 1px);
+ @screen-xl-max: (@screen-xxl-min - 1px);

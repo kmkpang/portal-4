@@ -1,0 +1,59 @@
+preset: preset1
+base:
+  background: '#ffffff'
+  text-color: '#424753'
+accent:
+  color-1: '#022662'
+  color-2: '#b72921'
+font:
+  family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+  family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+link:
+  regular: '#022662'
+  hover: '#b72921'
+navigation:
+  background: '#ffffff'
+  text-color: '#767676'
+header:
+  background: 'rgba(255, 255, 255, 0)'
+  background-image: 'gantry-media://softverk/softverk.png'
+  background-overlay: disabled
+  text-color: '#767676'
+intro:
+  background: '#f4f5f7'
+  text-color: '#767676'
+features:
+  background: 'rgba(255, 255, 255, 0)'
+  text-color: '#767676'
+utility:
+  background: 'rgba(255, 255, 255, 0)'
+  text-color: '#767676'
+above:
+  background: 'rgba(255, 255, 255, 0)'
+  text-color: '#767676'
+testimonials:
+  background: 'rgba(255, 255, 255, 0)'
+  background-image: 'gantry-media://testimonials/img01.jpg'
+  background-overlay: enabled
+  text-color: '#eceeef'
+expanded:
+  background: 'rgba(255, 255, 255, 0)'
+  text-color: '#767676'
+footer:
+  background: 'rgba(255, 255, 255, 0)'
+  text-color: '#7a7a7a'
+offcanvas:
+  background: '#022662'
+  text-color: '#ffffff'
+  toggle-color: '#022662'
+  toggle-visibility: '1'
+  width: 12rem
+breakpoints:
+  large-desktop-container: 75rem
+  desktop-container: 64rem
+  tablet-container: 49rem
+  large-mobile-container: 30rem
+  mobile-menu-breakpoint: 49rem
+menu:
+  col-width: 180px
+  animation: g-fade

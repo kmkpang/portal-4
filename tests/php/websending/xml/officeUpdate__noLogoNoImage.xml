@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UploadXML>
+    <System>
+        <PublicKey/>
+        <Version>MAP 1.1</Version>
+        <SystemName>Saga</SystemName>
+        <SentData Order="Update" SentDate="2018-08-13 08:12:52" Type="Office"/>
+    </System>
+    <Offices>
+        <Office>
+            <Address Country="TH">
+                <HouseAddress>xxxxx</HouseAddress>
+                <Street>yyyy</Street>
+                <PostalCodeID>102601</PostalCodeID>
+                <TownID>1025</TownID>
+                <RegionID>10</RegionID>
+                <Latitude>1.1</Latitude>
+                <Longitude>2.1</Longitude>
+            </Address>
+            <Information>
+                <OfficeID>114</OfficeID>
+                <OfficeName>IHouse Bangkok Updated</OfficeName>
+                <Email>admin@ihousebangkok.co.th</Email>
+                <Fax/>
+                <Phone/>
+                <URLToPrivatePage>http://ihousebangkok.softverk.co.th/</URLToPrivatePage>
+                <logo></logo>
+                <MarketingInfo>
+                    <LanguageID/>
+                    <OfficeDescription>&lt;p&gt;Description&lt;/p&gt;</OfficeDescription>
+                    <Slogan>&lt;p&gt;Slogan&lt;/p&gt;</Slogan>
+                    <Closer>&lt;p&gt;Closer&lt;/p&gt;</Closer>
+                    <BulletPoint1>&lt;p&gt;Marketing 1&lt;/p&gt;</BulletPoint1>
+                    <BulletPoint2>&lt;p&gt;Marketing 2&lt;/p&gt;</BulletPoint2>
+                    <BulletPoint3>&lt;p&gt;Marketing 3&lt;/p&gt;</BulletPoint3>
+                </MarketingInfo>
+                <ShowOnWeb>true</ShowOnWeb>
+            </Information>
+            <Images>
+                <DefaultImageSequenceNumber>1</DefaultImageSequenceNumber>
+                <Image>
+                </Image>
+            </Images>
+        </Office>
+    </Offices>
+</UploadXML>

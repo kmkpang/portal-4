@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="0.0.1" client="site" method="upgrade">
+    <name>Webportal Social Module</name>
+    <author>Shrouk Khan</author>
+    <creationDate>June 15, 2019</creationDate>
+    <copyright>Copyright (C) 2011 Softverk. All rights reserved.</copyright>
+    <license>Commercial</license>
+    <authorEmail>shroukkhan@gmail.com</authorEmail>
+    <authorUrl>www.softverk.is</authorUrl>
+    <version>4.0.0</version>
+    <description>Webportal Social Module</description>
+    <files>
+        <filename module="mod_webportal_social">mod_webportal_social.php</filename>
+        <folder>tmpl</folder>
+        <filename>index.html</filename>
+        <filename>mod_webportal_social.xml</filename>
+    </files>
+    <languages>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+                <field name="office_id" type="sql" default="0" label="Select Site" query="SELECT id, site_name FROM #__portal_settings order by site_name" key_field="id" value_field="site_name" required="true"/>
+
+                <field type="spacer" label="&lt;hr/&gt;&lt;b&gt;&lt;/b&gt;"/>
+
+                <field name="social" label="&lt;b&gt;Social&lt;/b&gt;" type="subform">
+                    <form>
+                        <field label="Facebook" name="facebook" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Facebook Icon" name='icon_facebook' showon="facebook:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+                        <field label="Twitter" name="twitter" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Twitter Icon" name='icon_twitter' showon="twitter:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+
+                        <field label="Instagram" name="instagram" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Instagram Icon" name='icon_instagram' showon="instagram:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+
+                        <field label="Youtube" name="youtube" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Youtube Icon" name='icon_youtube' showon="youtube:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+
+                        <field label="Line" name="line" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Line Icon" name='icon_line' showon="line:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+
+                        <field label="Wechat" name="wechat" type="radio" default="1" class="btn-group btn-group-yesno">
+                            <option value="1">Enabled</option>
+                            <option value="0">Disabled</option>
+
+                            <field label="Wechat Icon" name='icon_wechat' showon="wechat:1" type="subform">
+                                <form>
+                                    <field label="URL" name="url" type="url" hint="http://www.example.com" size="15" required="required" />
+
+                                    <field label="Color Style" name="color_style" type="radio" default="default" class="btn-group">
+                                        <option value="default">Default</option>
+                                        <option value="custom">Custom</option>
+                                    </field>
+
+                                    <field showon="color_style:custom" label="Background Icon Color" name="bg_icon_color" type="color" format="rgba"/>
+                                    <field showon="color_style:custom" label="Icon Color" name="icon_color" type="color" format="rgba"/>
+                                </form>
+                            </field>
+                        </field>
+
+                    </form>
+                </field>
+
+            </fieldset>
+            <fieldset name="advanced">
+                <field name="moduleclass_sfx" type="text" default="" description="PARAMMODULECLASSSUFFIX"/>
+
+                <!-- Search Options -->
+                <field type="spacer" label="&lt;hr/&gt;&lt;b&gt;Antd overridess&lt;/b&gt;"/>
+                <field name="less_variables_override" type="subform" multiple="true" description="Override any antd variables , reference: https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less">
+                    <form>
+                        <field name="less_variable_key" type="list" default="">
+                            <option value="@ant-prefix">@ant-prefix</option>
+                            <option value="@primary-color">@primary-color</option>
+                            <option value="@info-color">@info-color</option>
+                            <option value="@success-color">@success-color</option>
+                            <option value="@processing-color">@processing-color</option>
+                            <option value="@error-color">@error-color</option>
+                            <option value="@highlight-color">@highlight-color</option>
+                            <option value="@warning-color">@warning-color</option>
+                            <option value="@normal-color">@normal-color</option>
+                            <option value="@primary-1">@primary-1</option>
+                            <option value="@primary-2">@primary-2</option>
+                            <option value="@primary-3">@primary-3</option>
+                            <option value="@primary-4">@primary-4</option>
+                            <option value="@primary-5">@primary-5</option>
+                            <option value="@primary-6">@primary-6</option>
+                            <option value="@primary-7">@primary-7</option>
+                            <option value="@primary-8">@primary-8</option>
+                            <option value="@primary-9">@primary-9</option>
+                            <option value="@primary-10">@primary-10</option>
+                            <option value="@body-background">@body-background</option>
+                            <option value="@component-background">@component-background</option>
+                            <option value="@font-family">@font-family</option>
+                            <option value="@code-family">@code-family</option>
+                            <option value="@heading-color">@heading-color</option>
+                            <option value="@text-color">@text-color</option>
+                            <option value="@text-color-secondary">@text-color-secondary</option>
+                            <option value="@heading-color-dark">@heading-color-dark</option>
+                            <option value="@text-color-dark">@text-color-dark</option>
+                            <option value="@text-color-secondary-dark">@text-color-secondary-dark</option>
+                            <option value="@font-variant-base">@font-variant-base</option>
+                            <option value="@font-size-base">@font-size-base</option>
+                            <option value="@font-size-lg">@font-size-lg</option>
+                            <option value="@font-size-sm">@font-size-sm</option>
+                            <option value="@line-height-base">@line-height-base</option>
+                            <option value="@border-radius-base">@border-radius-base</option>
+                            <option value="@border-radius-sm">@border-radius-sm</option>
+                            <option value="@padding-lg">@padding-lg</option>
+                            <option value="@padding-md">@padding-md</option>
+                            <option value="@padding-sm">@padding-sm</option>
+                            <option value="@padding-xs">@padding-xs</option>
+                            <option value="@control-padding-horizontal">@control-padding-horizontal</option>
+                            <option value="@control-padding-horizontal-sm">@control-padding-horizontal-sm</option>
+                            <option value="@item-active-bg">@item-active-bg</option>
+                            <option value="@item-hover-bg">@item-hover-bg</option>
+                            <option value="@iconfont-css-prefix">@iconfont-css-prefix</option>
+                            <option value="@link-color">@link-color</option>
+                            <option value="@link-hover-color">@link-hover-color</option>
+                            <option value="@link-active-color">@link-active-color</option>
+                            <option value="@link-decoration">@link-decoration</option>
+                            <option value="@link-hover-decoration">@link-hover-decoration</option>
+                            <option value="@ease-base-out">@ease-base-out</option>
+                            <option value="@ease-base-in">@ease-base-in</option>
+                            <option value="@ease-out">@ease-out</option>
+                            <option value="@ease-in">@ease-in</option>
+                            <option value="@ease-in-out">@ease-in-out</option>
+                            <option value="@ease-out-back">@ease-out-back</option>
+                            <option value="@ease-in-back">@ease-in-back</option>
+                            <option value="@ease-in-out-back">@ease-in-out-back</option>
+                            <option value="@ease-out-circ">@ease-out-circ</option>
+                            <option value="@ease-in-circ">@ease-in-circ</option>
+                            <option value="@ease-in-out-circ">@ease-in-out-circ</option>
+                            <option value="@ease-out-quint">@ease-out-quint</option>
+                            <option value="@ease-in-quint">@ease-in-quint</option>
+                            <option value="@ease-in-out-quint">@ease-in-out-quint</option>
+                            <option value="@border-color-base">@border-color-base</option>
+                            <option value="@border-color-split">@border-color-split</option>
+                            <option value="@border-width-base">@border-width-base</option>
+                            <option value="@border-style-base">@border-style-base</option>
+                            <option value="@outline-blur-size">@outline-blur-size</option>
+                            <option value="@outline-width">@outline-width</option>
+                            <option value="@outline-color">@outline-color</option>
+                            <option value="@background-color-light">@background-color-light</option>
+                            <option value="@background-color-base">@background-color-base</option>
+                            <option value="@disabled-color">@disabled-color</option>
+                            <option value="@disabled-bg">@disabled-bg</option>
+                            <option value="@disabled-color-dark">@disabled-color-dark</option>
+                            <option value="@shadow-color">@shadow-color</option>
+                            <option value="@box-shadow-base">@box-shadow-base</option>
+                            <option value="@shadow-1-up">@shadow-1-up</option>
+                            <option value="@shadow-1-down">@shadow-1-down</option>
+                            <option value="@shadow-1-left">@shadow-1-left</option>
+                            <option value="@shadow-1-right">@shadow-1-right</option>
+                            <option value="@shadow-2">@shadow-2</option>
+                            <option value="@btn-font-weight">@btn-font-weight</option>
+                            <option value="@btn-border-radius-base">@btn-border-radius-base</option>
+                            <option value="@btn-border-radius-sm">@btn-border-radius-sm</option>
+                            <option value="@btn-primary-color">@btn-primary-color</option>
+                            <option value="@btn-primary-bg">@btn-primary-bg</option>
+                            <option value="@btn-default-color">@btn-default-color</option>
+                            <option value="@btn-default-bg">@btn-default-bg</option>
+                            <option value="@btn-default-border">@btn-default-border</option>
+                            <option value="@btn-danger-color">@btn-danger-color</option>
+                            <option value="@btn-danger-bg">@btn-danger-bg</option>
+                            <option value="@btn-danger-border">@btn-danger-border</option>
+                            <option value="@btn-disable-color">@btn-disable-color</option>
+                            <option value="@btn-disable-bg">@btn-disable-bg</option>
+                            <option value="@btn-disable-border">@btn-disable-border</option>
+                            <option value="@btn-padding-base">@btn-padding-base</option>
+                            <option value="@btn-font-size-lg">@btn-font-size-lg</option>
+                            <option value="@btn-font-size-sm">@btn-font-size-sm</option>
+                            <option value="@btn-padding-lg">@btn-padding-lg</option>
+                            <option value="@btn-padding-sm">@btn-padding-sm</option>
+                            <option value="@btn-height-base">@btn-height-base</option>
+                            <option value="@btn-height-lg">@btn-height-lg</option>
+                            <option value="@btn-height-sm">@btn-height-sm</option>
+                            <option value="@btn-circle-size">@btn-circle-size</option>
+                            <option value="@btn-circle-size-lg">@btn-circle-size-lg</option>
+                            <option value="@btn-circle-size-sm">@btn-circle-size-sm</option>
+                            <option value="@btn-group-border">@btn-group-border</option>
+                            <option value="@checkbox-size">@checkbox-size</option>
+                            <option value="@checkbox-color">@checkbox-color</option>
+                            <option value="@checkbox-check-color">@checkbox-check-color</option>
+                            <option value="@checkbox-border-width">@checkbox-border-width</option>
+                            <option value="@radio-size">@radio-size</option>
+                            <option value="@radio-dot-color">@radio-dot-color</option>
+                            <option value="@radio-button-bg">@radio-button-bg</option>
+                            <option value="@radio-button-color">@radio-button-color</option>
+                            <option value="@radio-button-hover-color">@radio-button-hover-color</option>
+                            <option value="@radio-button-active-color">@radio-button-active-color</option>
+                            <option value="@screen-xs">@screen-xs</option>
+                            <option value="@screen-xs-min">@screen-xs-min</option>
+                            <option value="@screen-sm">@screen-sm</option>
+                            <option value="@screen-sm-min">@screen-sm-min</option>
+                            <option value="@screen-md">@screen-md</option>
+                            <option value="@screen-md-min">@screen-md-min</option>
+                            <option value="@screen-lg">@screen-lg</option>
+                            <option value="@screen-lg-min">@screen-lg-min</option>
+                            <option value="@screen-xl">@screen-xl</option>
+                            <option value="@screen-xl-min">@screen-xl-min</option>
+                            <option value="@screen-xxl">@screen-xxl</option>
+                            <option value="@screen-xxl-min">@screen-xxl-min</option>
+                            <option value="@screen-xs-max">@screen-xs-max</option>
+                            <option value="@screen-sm-max">@screen-sm-max</option>
+                            <option value="@screen-md-max">@screen-md-max</option>
+                            <option value="@screen-lg-max">@screen-lg-max</option>
+                            <option value="@screen-xl-max">@screen-xl-max</option>
+                            <option value="@grid-columns">@grid-columns</option>
+                            <option value="@grid-gutter-width">@grid-gutter-width</option>
+                            <option value="@layout-body-background">@layout-body-background</option>
+                            <option value="@layout-header-background">@layout-header-background</option>
+                            <option value="@layout-footer-background">@layout-footer-background</option>
+                            <option value="@layout-header-height">@layout-header-height</option>
+                            <option value="@layout-header-padding">@layout-header-padding</option>
+                            <option value="@layout-footer-padding">@layout-footer-padding</option>
+                            <option value="@layout-sider-background">@layout-sider-background</option>
+                            <option value="@layout-trigger-height">@layout-trigger-height</option>
+                            <option value="@layout-trigger-background">@layout-trigger-background</option>
+                            <option value="@layout-trigger-color">@layout-trigger-color</option>
+                            <option value="@layout-zero-trigger-width">@layout-zero-trigger-width</option>
+                            <option value="@layout-zero-trigger-height">@layout-zero-trigger-height</option>
+                            <option value="@layout-sider-background-light">@layout-sider-background-light</option>
+                            <option value="@layout-trigger-background-light">@layout-trigger-background-light</option>
+                            <option value="@layout-trigger-color-light">@layout-trigger-color-light</option>
+                            <option value="@zindex-affix">@zindex-affix</option>
+                            <option value="@zindex-back-top">@zindex-back-top</option>
+                            <option value="@zindex-modal-mask">@zindex-modal-mask</option>
+                            <option value="@zindex-modal">@zindex-modal</option>
+                            <option value="@zindex-notification">@zindex-notification</option>
+                            <option value="@zindex-message">@zindex-message</option>
+                            <option value="@zindex-popover">@zindex-popover</option>
+                            <option value="@zindex-picker">@zindex-picker</option>
+                            <option value="@zindex-dropdown">@zindex-dropdown</option>
+                            <option value="@zindex-tooltip">@zindex-tooltip</option>
+                            <option value="@animation-duration-slow">@animation-duration-slow</option>
+                            <option value="@animation-duration-base">@animation-duration-base</option>
+                            <option value="@animation-duration-fast">@animation-duration-fast</option>
+                            <option value="@label-required-color">@label-required-color</option>
+                            <option value="@label-color">@label-color</option>
+                            <option value="@form-item-margin-bottom">@form-item-margin-bottom</option>
+                            <option value="@form-item-trailing-colon">@form-item-trailing-colon</option>
+                            <option value="@form-vertical-label-padding">@form-vertical-label-padding</option>
+                            <option value="@form-vertical-label-margin">@form-vertical-label-margin</option>
+                            <option value="@input-height-base">@input-height-base</option>
+                            <option value="@input-height-lg">@input-height-lg</option>
+                            <option value="@input-height-sm">@input-height-sm</option>
+                            <option value="@input-padding-horizontal">@input-padding-horizontal</option>
+                            <option value="@input-padding-horizontal-base">@input-padding-horizontal-base</option>
+                            <option value="@input-padding-horizontal-sm">@input-padding-horizontal-sm</option>
+                            <option value="@input-padding-horizontal-lg">@input-padding-horizontal-lg</option>
+                            <option value="@input-padding-vertical-base">@input-padding-vertical-base</option>
+                            <option value="@input-padding-vertical-sm">@input-padding-vertical-sm</option>
+                            <option value="@input-padding-vertical-lg">@input-padding-vertical-lg</option>
+                            <option value="@input-placeholder-color">@input-placeholder-color</option>
+                            <option value="@input-color">@input-color</option>
+                            <option value="@input-border-color">@input-border-color</option>
+                            <option value="@input-bg">@input-bg</option>
+                            <option value="@input-addon-bg">@input-addon-bg</option>
+                            <option value="@input-hover-border-color">@input-hover-border-color</option>
+                            <option value="@input-disabled-bg">@input-disabled-bg</option>
+                            <option value="@input-outline-offset">@input-outline-offset</option>
+                            <option value="@tooltip-max-width">@tooltip-max-width</option>
+                            <option value="@tooltip-color">@tooltip-color</option>
+                            <option value="@tooltip-bg">@tooltip-bg</option>
+                            <option value="@tooltip-arrow-width">@tooltip-arrow-width</option>
+                            <option value="@tooltip-distance">@tooltip-distance</option>
+                            <option value="@tooltip-arrow-color">@tooltip-arrow-color</option>
+                            <option value="@popover-bg">@popover-bg</option>
+                            <option value="@popover-color">@popover-color</option>
+                            <option value="@popover-min-width">@popover-min-width</option>
+                            <option value="@popover-arrow-width">@popover-arrow-width</option>
+                            <option value="@popover-arrow-color">@popover-arrow-color</option>
+                            <option value="@popover-arrow-outer-color">@popover-arrow-outer-color</option>
+                            <option value="@popover-distance">@popover-distance</option>
+                            <option value="@modal-header-bg">@modal-header-bg</option>
+                            <option value="@modal-mask-bg">@modal-mask-bg</option>
+                            <option value="@progress-default-color">@progress-default-color</option>
+                            <option value="@progress-remaining-color">@progress-remaining-color</option>
+                            <option value="@progress-text-color">@progress-text-color</option>
+                            <option value="@menu-inline-toplevel-item-height">@menu-inline-toplevel-item-height</option>
+                            <option value="@menu-item-height">@menu-item-height</option>
+                            <option value="@menu-collapsed-width">@menu-collapsed-width</option>
+                            <option value="@menu-bg">@menu-bg</option>
+                            <option value="@menu-popup-bg">@menu-popup-bg</option>
+                            <option value="@menu-item-color">@menu-item-color</option>
+                            <option value="@menu-highlight-color">@menu-highlight-color</option>
+                            <option value="@menu-item-active-bg">@menu-item-active-bg</option>
+                            <option value="@menu-item-active-border-width">@menu-item-active-border-width</option>
+                            <option value="@menu-item-group-title-color">@menu-item-group-title-color</option>
+                            <option value="@menu-dark-color">@menu-dark-color</option>
+                            <option value="@menu-dark-bg">@menu-dark-bg</option>
+                            <option value="@menu-dark-arrow-color">@menu-dark-arrow-color</option>
+                            <option value="@menu-dark-submenu-bg">@menu-dark-submenu-bg</option>
+                            <option value="@menu-dark-highlight-color">@menu-dark-highlight-color</option>
+                            <option value="@menu-dark-item-active-bg">@menu-dark-item-active-bg</option>
+                            <option value="@spin-dot-size-sm">@spin-dot-size-sm</option>
+                            <option value="@spin-dot-size">@spin-dot-size</option>
+                            <option value="@spin-dot-size-lg">@spin-dot-size-lg</option>
+                            <option value="@table-header-bg">@table-header-bg</option>
+                            <option value="@table-header-color">@table-header-color</option>
+                            <option value="@table-header-sort-bg">@table-header-sort-bg</option>
+                            <option value="@table-body-sort-bg">@table-body-sort-bg</option>
+                            <option value="@table-row-hover-bg">@table-row-hover-bg</option>
+                            <option value="@table-selected-row-bg">@table-selected-row-bg</option>
+                            <option value="@table-expanded-row-bg">@table-expanded-row-bg</option>
+                            <option value="@table-padding-vertical">@table-padding-vertical</option>
+                            <option value="@table-padding-horizontal">@table-padding-horizontal</option>
+                            <option value="@tag-default-bg">@tag-default-bg</option>
+                            <option value="@tag-default-color">@tag-default-color</option>
+                            <option value="@tag-font-size">@tag-font-size</option>
+                            <option value="@time-picker-panel-column-width">@time-picker-panel-column-width</option>
+                            <option value="@time-picker-panel-width">@time-picker-panel-width</option>
+                            <option value="@time-picker-selected-bg">@time-picker-selected-bg</option>
+                            <option value="@carousel-dot-width">@carousel-dot-width</option>
+                            <option value="@carousel-dot-height">@carousel-dot-height</option>
+                            <option value="@carousel-dot-active-width">@carousel-dot-active-width</option>
+                            <option value="@badge-height">@badge-height</option>
+                            <option value="@badge-dot-size">@badge-dot-size</option>
+                            <option value="@badge-font-size">@badge-font-size</option>
+                            <option value="@badge-font-weight">@badge-font-weight</option>
+                            <option value="@badge-status-size">@badge-status-size</option>
+                            <option value="@rate-star-color">@rate-star-color</option>
+                            <option value="@rate-star-bg">@rate-star-bg</option>
+                            <option value="@card-head-color">@card-head-color</option>
+                            <option value="@card-head-background">@card-head-background</option>
+                            <option value="@card-head-padding">@card-head-padding</option>
+                            <option value="@card-inner-head-padding">@card-inner-head-padding</option>
+                            <option value="@card-padding-base">@card-padding-base</option>
+                            <option value="@card-padding-wider">@card-padding-wider</option>
+                            <option value="@card-actions-background">@card-actions-background</option>
+                            <option value="@card-shadow">@card-shadow</option>
+                            <option value="@comment-padding-base">@comment-padding-base</option>
+                            <option value="@comment-nest-indent">@comment-nest-indent</option>
+                            <option value="@comment-author-name-color">@comment-author-name-color</option>
+                            <option value="@comment-author-time-color">@comment-author-time-color</option>
+                            <option value="@comment-action-color">@comment-action-color</option>
+                            <option value="@comment-action-hover-color">@comment-action-hover-color</option>
+                            <option value="@tabs-card-head-background">@tabs-card-head-background</option>
+                            <option value="@tabs-card-height">@tabs-card-height</option>
+                            <option value="@tabs-card-active-color">@tabs-card-active-color</option>
+                            <option value="@tabs-title-font-size">@tabs-title-font-size</option>
+                            <option value="@tabs-title-font-size-lg">@tabs-title-font-size-lg</option>
+                            <option value="@tabs-title-font-size-sm">@tabs-title-font-size-sm</option>
+                            <option value="@tabs-ink-bar-color">@tabs-ink-bar-color</option>
+                            <option value="@tabs-bar-margin">@tabs-bar-margin</option>
+                            <option value="@tabs-horizontal-margin">@tabs-horizontal-margin</option>
+                            <option value="@tabs-horizontal-padding">@tabs-horizontal-padding</option>
+                            <option value="@tabs-vertical-padding">@tabs-vertical-padding</option>
+                            <option value="@tabs-vertical-margin">@tabs-vertical-margin</option>
+                            <option value="@tabs-scrolling-size">@tabs-scrolling-size</option>
+                            <option value="@tabs-highlight-color">@tabs-highlight-color</option>
+                            <option value="@tabs-hover-color">@tabs-hover-color</option>
+                            <option value="@tabs-active-color">@tabs-active-color</option>
+                            <option value="@back-top-color">@back-top-color</option>
+                            <option value="@back-top-bg">@back-top-bg</option>
+                            <option value="@back-top-hover-bg">@back-top-hover-bg</option>
+                            <option value="@avatar-size-base">@avatar-size-base</option>
+                            <option value="@avatar-size-lg">@avatar-size-lg</option>
+                            <option value="@avatar-size-sm">@avatar-size-sm</option>
+                            <option value="@avatar-font-size-base">@avatar-font-size-base</option>
+                            <option value="@avatar-font-size-lg">@avatar-font-size-lg</option>
+                            <option value="@avatar-font-size-sm">@avatar-font-size-sm</option>
+                            <option value="@avatar-bg">@avatar-bg</option>
+                            <option value="@avatar-color">@avatar-color</option>
+                            <option value="@avatar-border-radius">@avatar-border-radius</option>
+                            <option value="@switch-height">@switch-height</option>
+                            <option value="@switch-sm-height">@switch-sm-height</option>
+                            <option value="@switch-sm-checked-margin-left">@switch-sm-checked-margin-left</option>
+                            <option value="@switch-disabled-opacity">@switch-disabled-opacity</option>
+                            <option value="@switch-color">@switch-color</option>
+                            <option value="@pagination-item-size">@pagination-item-size</option>
+                            <option value="@pagination-item-size-sm">@pagination-item-size-sm</option>
+                            <option value="@pagination-font-family">@pagination-font-family</option>
+                            <option value="@pagination-font-weight-active">@pagination-font-weight-active</option>
+                            <option value="@breadcrumb-base-color">@breadcrumb-base-color</option>
+                            <option value="@breadcrumb-last-item-color">@breadcrumb-last-item-color</option>
+                            <option value="@breadcrumb-font-size">@breadcrumb-font-size</option>
+                            <option value="@breadcrumb-icon-font-size">@breadcrumb-icon-font-size</option>
+                            <option value="@breadcrumb-link-color">@breadcrumb-link-color</option>
+                            <option value="@breadcrumb-link-color-hover">@breadcrumb-link-color-hover</option>
+                            <option value="@breadcrumb-separator-color">@breadcrumb-separator-color</option>
+                            <option value="@breadcrumb-separator-margin">@breadcrumb-separator-margin</option>
+                            <option value="@slider-margin">@slider-margin</option>
+                            <option value="@slider-rail-background-color">@slider-rail-background-color</option>
+                            <option value="@slider-rail-background-color-hover">@slider-rail-background-color-hover
+                            </option>
+                            <option value="@slider-track-background-color">@slider-track-background-color</option>
+                            <option value="@slider-track-background-color-hover">@slider-track-background-color-hover
+                            </option>
+                            <option value="@slider-handle-color">@slider-handle-color</option>
+                            <option value="@slider-handle-color-hover">@slider-handle-color-hover</option>
+                            <option value="@slider-handle-color-focus">@slider-handle-color-focus</option>
+                            <option value="@slider-handle-color-focus-shadow">@slider-handle-color-focus-shadow</option>
+                            <option value="@slider-handle-color-tooltip-open">@slider-handle-color-tooltip-open</option>
+                            <option value="@slider-dot-border-color">@slider-dot-border-color</option>
+                            <option value="@slider-dot-border-color-active">@slider-dot-border-color-active</option>
+                            <option value="@slider-disabled-color">@slider-disabled-color</option>
+                            <option value="@slider-disabled-background-color">@slider-disabled-background-color</option>
+                            <option value="@tree-title-height">@tree-title-height</option>
+                            <option value="@tree-child-padding">@tree-child-padding</option>
+                            <option value="@tree-directory-selected-color">@tree-directory-selected-color</option>
+                            <option value="@tree-directory-selected-bg">@tree-directory-selected-bg</option>
+                            <option value="@collapse-header-padding">@collapse-header-padding</option>
+                            <option value="@collapse-header-bg">@collapse-header-bg</option>
+                            <option value="@collapse-content-padding">@collapse-content-padding</option>
+                            <option value="@collapse-content-bg">@collapse-content-bg</option>
+                            <option value="@skeleton-color">@skeleton-color</option>
+                            <option value="@transfer-disabled-bg">@transfer-disabled-bg</option>
+                            <option value="@message-notice-content-padding">@message-notice-content-padding</option>
+                            <option value="@wave-animation-width">@wave-animation-width</option>
+                            <option value="@alert-success-border-color">@alert-success-border-color</option>
+                            <option value="@alert-success-bg-color">@alert-success-bg-color</option>
+                            <option value="@alert-success-icon-color">@alert-success-icon-color</option>
+                            <option value="@alert-info-border-color">@alert-info-border-color</option>
+                            <option value="@alert-info-bg-color">@alert-info-bg-color</option>
+                            <option value="@alert-info-icon-color">@alert-info-icon-color</option>
+                            <option value="@alert-warning-border-color">@alert-warning-border-color</option>
+                            <option value="@alert-warning-bg-color">@alert-warning-bg-color</option>
+                            <option value="@alert-warning-icon-color">@alert-warning-icon-color</option>
+                            <option value="@alert-error-border-color">@alert-error-border-color</option>
+                            <option value="@alert-error-bg-color">@alert-error-bg-color</option>
+                            <option value="@alert-error-icon-color">@alert-error-icon-color</option>
+                            <option value="@list-empty-text-padding">@list-empty-text-padding</option>
+                            <option value="@list-item-padding">@list-item-padding</option>
+                            <option value="@list-item-content-margin">@list-item-content-margin</option>
+                            <option value="@list-item-meta-margin-bottom">@list-item-meta-margin-bottom</option>
+                            <option value="@list-item-meta-avatar-margin-right">@list-item-meta-avatar-margin-right
+                            </option>
+                            <option value="@list-item-meta-title-margin-bottom">@list-item-meta-title-margin-bottom
+                            </option>
+                        </field>
+                        <field name="value_type" type="radio" class="btn-group" default="color">
+                            <option value="color">Color</option>
+                            <option value="text">Custom</option>
+                        </field>
+
+                        <field name="less_variable_text" size="150" type="text" filter="raw" showon="value_type:text"/>
+                        <field name="less_variable_color" type="color" format="rgba" showon="value_type:color"/>
+                    </form>
+                </field>
+                <field type="spacer" label="&lt;hr/&gt;&lt;b&gt;Other Joomla Options&lt;/b&gt;"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

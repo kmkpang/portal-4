@@ -1,0 +1,149 @@
+// Color variables (appears count calculates by raw css)
+@color0: #ffffff; // Appears 2 times
+
+// Width variables (appears count calculates by raw css)
+@width1: 100%; // Appears 7 times
+
+// Height variables (appears count calculates by raw css)
+@height0: 100%; // Appears 4 times
+@height2: 2px; // Appears 2 times
+
+:global {
+    @keyframes modal-video {
+        from {
+            opacity: 0
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes modal-video-inner {
+        from {
+            transform: translate(0, 100px)
+        }
+
+        to {
+            transform: translate(0, 0)
+        }
+    }
+
+    .modal-video {
+        -moz-transition: opacity .3s ease-out;
+        -ms-transition: opacity .3s ease-out;
+        -o-transition: opacity .3s ease-out;
+        -webkit-transition: opacity .3s ease-out;
+        animation-duration: .3s;
+        animation-name: modal-video;
+        animation-timing-function: ease-out;
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        height: @height0;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        transition: opacity .3s ease-out;
+        width: @width1;
+        z-index: 1000000;
+    }
+
+    .modal-video-close {
+        opacity: 0;
+
+        .modal-video-movie-wrap {
+            -moz-transform: translate(0, 100px);
+            -ms-transform: translate(0, 100px);
+            -o-transform: translate(0, 100px);
+            -webkit-transform: translate(0, 100px);
+            transform: translate(0, 100px);
+        }
+    }
+
+    .modal-video-body {
+        display: table;
+        height: @height0;
+        margin: 0 auto;
+        max-width: 940px;
+        width: @width1;
+    }
+
+    .modal-video-inner {
+        display: table-cell;
+        height: @height0;
+        vertical-align: middle;
+        width: @width1;
+    }
+
+    .modal-video-movie-wrap {
+        -moz-transform: translate(0, 0);
+        -moz-transition: -moz-transform .3s ease-out;
+        -ms-transform: translate(0, 0);
+        -ms-transition: -ms-transform .3s ease-out;
+        -o-transform: translate(0, 0);
+        -o-transition: -o-transform .3s ease-out;
+        -webkit-transform: translate(0, 0);
+        -webkit-transition: -webkit-transform .3s ease-out;
+        animation-duration: .3s;
+        animation-name: modal-video-inner;
+        animation-timing-function: ease-out;
+        background-color: #333333;
+        height: 0;
+        padding-bottom: 56.25%;
+        position: relative;
+        transform: translate(0, 0);
+        transition: transform .3s ease-out;
+        width: @width1;
+
+        iframe {
+            height: @height0;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: @width1;
+        }
+    }
+
+    .modal-video-close-btn {
+        background: transparent;
+        border: none;
+        display: inline-block;
+        height: 35px;
+        overflow: hidden;
+        position: absolute;
+        right: -35px;
+        top: -35px;
+        width: 35px;
+        z-index: 2;
+
+        &:before {
+            background: @color0;
+            border-radius: 5px;
+            content: '';
+            height: @height2;
+            left: 0;
+            margin-top: -1px;
+            margin-top: -6px;
+            position: absolute;
+            top: 50%;
+            transform: rotate(45deg);
+            width: @width1;
+        }
+
+        &:after {
+            background: @color0;
+            border-radius: 5px;
+            content: '';
+            height: @height2;
+            left: 0;
+            margin-top: -1px;
+            margin-top: -6px;
+            position: absolute;
+            top: 50%;
+            transform: rotate(-45deg);
+            width: @width1;
+        }
+    }
+
+}

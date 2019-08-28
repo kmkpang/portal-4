@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UploadXML>
+    <System>
+        <PublicKey>QzFPRjE1NjIwMTgwODEzMjAwMzE2NUI3MTgxOTRCMUI1RDVCNzE4MTk0QjFDMDQ=</PublicKey>
+        <Version>MAP 1.1</Version>
+        <SystemName>Saga</SystemName>
+        <SentData Order="Create" SentDate="2018-09-03 04:44:21" Type="Agent"/>
+    </System>
+    <SalesAssociates>
+        <SalesAssociate>
+            <Address Country="IS">
+                <HouseAddress/>
+                <Street/>
+                <PostalCodeID>26</PostalCodeID>
+                <TownID>12</TownID>
+                <RegionID>2</RegionID>
+                <Latitude>0</Latitude>
+                <Longitude>0</Longitude>
+            </Address>
+            <Information>
+                <SaleID>b5ca0558-85ed-4dfc-e5a5-5e5b2d8ed195</SaleID>
+                <OfficeID>C1OF156201808132003165B718194B1B5D</OfficeID>
+                <SagaAgentID>TH-114-131</SagaAgentID>
+                <FirstName>Nitchanan</FirstName>
+                <LastName>Wandee</LastName>
+                <MiddleName/>
+                <Title/>
+                <Email>nitchanan.w@ihousebangkok.com</Email>
+                <Fax/>
+                <Phone/>
+                <Mobile/>
+                <URLToPrivatePage/>
+                <Gender Gender="1"/>
+                <DOB>0001-01-01</DOB>
+                <LanguagesSpoken>
+                    <LanguageSpoken/>
+                </LanguagesSpoken>
+                <MarketingInfo>
+                    <LanguageID/>
+                    <Slogan/>
+                    <AgentDescription/>
+                    <Closer/>
+                    <BulletPoint1/>
+                </MarketingInfo>
+                <ShowOnWeb>true</ShowOnWeb>
+            </Information>
+            <Images>
+                <DefaultImageSequenceNumber>1</DefaultImageSequenceNumber>
+                <Image>
+                    <SequenceNumber>1</SequenceNumber>
+                    <FileName>http://saga.softverk.co.th/agent.png</FileName>
+                    <DescriptiveName>Agent Photo</DescriptiveName>
+                    <Alt>agent_photo</Alt>
+                </Image>
+            </Images>
+        </SalesAssociate>
+    </SalesAssociates>
+</UploadXML>

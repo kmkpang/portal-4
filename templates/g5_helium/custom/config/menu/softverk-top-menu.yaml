@@ -1,0 +1,20 @@
+ordering:
+  buy: ''
+  rent: ''
+  projects: ''
+  news: ''
+  about-us: ''
+  contact-us: ''
+items:
+  buy:
+    id: 148
+  rent:
+    id: 149
+  projects:
+    id: 150
+  news:
+    id: 151
+  about-us:
+    id: 152
+  contact-us:
+    id: 153

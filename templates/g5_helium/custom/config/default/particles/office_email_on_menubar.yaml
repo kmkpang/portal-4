@@ -1,0 +1,6 @@
+enabled: '1'
+email:
+  address: softverk@softverk.co.th
+  icon: 'fa fa-envelope'
+css:
+  class: g-office-email

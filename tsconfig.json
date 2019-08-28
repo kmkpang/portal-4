@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "./media/com_webportal/js/",
+    "allowJs": true,
+    "target": "es5",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "lib": [
+      "es6",
+      "es7",
+      "dom"
+    ],
+    //this is to ignore checking node_modules
+    "skipLibCheck": true,
+    // allow a partial TypeScript and JavaScript codebase,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ]
+  },
+  "include": [
+    "./media/com_webportal/ts/**/*",
+    "./media/com_webportal/extra/*"
+  ]
+}

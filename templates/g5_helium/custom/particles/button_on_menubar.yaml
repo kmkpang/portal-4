@@ -1,0 +1,27 @@
+name: Link Button
+description: Adds a cutom button anywhere on menubar
+type: particle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable to the particles.
+      default: true
+
+    button.link:
+      type: input.text
+      label: Url Link
+      description: Such as : /list-your-property
+
+    button.text:
+      type: input.text
+      label: Label
+      description: Button Label , this text will be translated
+
+
+    css.class:
+      type: input.text
+      label: Class
+      description: CSS class name for the particle. ( optional )

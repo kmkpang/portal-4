@@ -1,0 +1,102 @@
+@import (less) '../../styles/index.less';
+
+
+@screen-xs: ~"only screen and (max-width: 425px)";
+@screen-s: ~"only screen and (min-width: 426px) and (max-width: 768px)";
+@screen-m: ~"only screen and (max-width: 767px)";
+@screen-md: ~"only screen and (min-width: 768px) and (max-width: 1023px)";
+@screen-xs-md: ~"only screen and (max-width: 1023px)";
+@screen-xmd: ~"only screen and (min-width: 769px) and (max-width: 1150px)";
+@screen-xl: ~"only screen and (min-width: 1024px)";
+
+.modWebportalBannerContainer {
+  background-color: white;
+  margin: 2rem 0;
+
+  @media @screen-md {
+    margin: 0;
+
+  }
+}
+
+:global {
+
+  .container-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+    .banner {
+      height: 100%;
+
+      .banner-content {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        z-index: 2;
+        left: 10%;
+
+        .banner-slogan {
+          font-size: 25px;
+          font-weight: 300;
+          margin-bottom: 3rem;
+
+          p {
+            margin: 0.2rem 0 !important;
+            padding: 0;
+          }
+        }
+
+        .banner-button {
+          font-size: 15px;
+          color: #fff;
+          font-weight: 300;
+          width: 180px;
+          line-height: 30px;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .banner-image {
+      height: 100%;
+      width: 100%;
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0.7;
+        background: #fff;
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        display: block;
+        filter: contrast(1);
+        width: 100%;
+        height: 100% !important;
+        object-fit: cover;
+        object-position: center;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        border-radius: 5px;
+      }
+    }
+
+    &:hover {
+      .banner {
+        .banner-content {
+          .banner-button {
+            filter: brightness(1.3);
+          }
+        }
+      }
+    }
+  }
+}

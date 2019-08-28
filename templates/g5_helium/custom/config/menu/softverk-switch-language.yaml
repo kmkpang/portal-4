@@ -1,0 +1,21 @@
+ordering:
+  switch-language:
+    __module: ''
+  __module-3ri6v: ''
+items:
+  switch-language:
+    id: 154
+    columns:
+      - 100
+  __module-3ri6v:
+    type: particle
+    particle: module
+    title: 'Softverk - Language Switcher'
+    options:
+      particle:
+        enabled: '1'
+        module_id: '100'
+        chrome: ''
+      block:
+        extra: {  }
+    enabled: '1'

@@ -1,0 +1,43 @@
+
+
+/*---------- multiSiteData --------*/
+
+requestMultiSiteData:['siteId'],
+multiSiteDataSuccess:['multiSiteDataResponse'],
+multiSiteDataFailure:['multiSiteDataError'],
+
+
+/*---------- multiSiteData --------*/
+
+
+export const requestMultiSiteData = (state:SeamlessImmutable.Immutable<any>,action:requestMultiSiteDataAction) => {
+  return state.merge(
+    {
+        multiSiteDataFetching:true,
+        siteId:action.siteId,
+        
+    });
+};
+export const multiSiteDataSuccess = (state:SeamlessImmutable.Immutable<any>,action:multiSiteDataSuccessAction) => {
+  return state.merge(
+    {
+        multiSiteDataFetching:false,
+        multiSiteDataResponse:action.multiSiteDataResponse,
+        
+    });
+};
+export const multiSiteDataFailure = (state:SeamlessImmutable.Immutable<any>,action:multiSiteDataFailureAction) => {
+  return state.merge(
+    {
+        multiSiteDataFetching:false,
+        multiSiteDataError:action.multiSiteDataError,
+        
+    });
+};
+
+
+/*---------- multiSiteData --------*/
+
+[Types.REQUEST_MULTI_SITE_DATA]: requestMultiSiteData,
+[Types.MULTI_SITE_DATA_SUCCESS]: multiSiteDataSuccess,
+[Types.MULTI_SITE_DATA_FAILURE]: multiSiteDataFailure,

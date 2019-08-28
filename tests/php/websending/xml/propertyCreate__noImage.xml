@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UploadXML>
+    <System>
+        <PublicKey>QzFPRjE1NjIwMTgwODEzMjAwMzE2NUI3MTgxOTRCMUI1RDVCNzE4MTk0QjFDMDQ=</PublicKey>
+        <Version>MAP 1.1</Version>
+        <SystemName>Saga</SystemName>
+        <SentData Order="Create" SentDate="2562-01-11 05:32:27" Type="Property"/>
+    </System>
+    <Properties>
+        <Property>
+            <Address Country="TH">
+                <Title>{"en":"The Crest Sukhumvit 49","is":"The Crest Sukhumvit 49","th":"The Crest Sukhumvit 49"}
+                </Title>
+                <HouseAddress>{"en":"Sukhumvit 49/2, Khlong Toei Nuea, Vadhana, Bangkok 10110t","is":"Sukhumvit 49/2,
+                    Khlong Toei Nuea, Vadhana, Bangkok 10110t","th":"Sukhumvit 49/2, Khlong Toei Nuea, Vadhana, Bangkok
+                    10110"}
+                </HouseAddress>
+                <Street>{"en":"Sukhumvit 49/2, Khlong Toei Nuea, Vadhana, Bangkok 10110t","is":"Sukhumvit 49/2, Khlong
+                    Toei Nuea, Vadhana, Bangkok 10110t","th":"Sukhumvit 49/2, Khlong Toei Nuea, Vadhana, Bangkok 10110"}
+                </Street>
+                <HouseNumber/>
+                <PostalCodeID>0</PostalCodeID>
+                <TownID>0</TownID>
+                <RegionID>0</RegionID>
+                <Latitude>13.7303743</Latitude>
+                <Longitude>100.57695</Longitude>
+                <ZoneId>91</ZoneId>
+            </Address>
+            <Information>
+                <PropertyID>100-114-442</PropertyID>
+                <OfficeID>C1OF156201808132003165B718194B1B5D</OfficeID>
+                <SaleID>C1AG201809031630415B8CFF41023A0</SaleID>
+                <Mode Mode="2"/>
+                <PropertyCategory PropertyCategory="3824"/>
+                <PropertyType PropertyType="3"/>
+                <CurrentListingPrice>24000</CurrentListingPrice>
+                <PropertyAppraisal>0</PropertyAppraisal>
+                <FireAppraisal>0</FireAppraisal>
+                <Mortgage>0</Mortgage>
+                <CurrentListingCurrency CurrentListingCurrency="ISK"/>
+                <RentalPriceGranularity RentalPriceGranularity="2"/>
+                <PropertyStatus PropertyStatus="1"/>
+                <ListingStatus/>
+                <FloorLevel FloorLevel="8.0"/>
+                <TotalArea>34.3</TotalArea>
+                <LivingArea>0</LivingArea>
+                <LandArea>0</LandArea>
+                <CubicVolume>0</CubicVolume>
+                <TotalNumberOfRooms>2</TotalNumberOfRooms>
+                <NumberOfBathrooms>1</NumberOfBathrooms>
+                <NumberOfLivingrooms>0</NumberOfLivingrooms>
+                <NumberOfBedrooms>1</NumberOfBedrooms>
+                <NumberOfToiletRooms>0</NumberOfToiletRooms>
+                <NumberOfFloors>5</NumberOfFloors>
+                <Entrance>-</Entrance>
+                <Garage>false</Garage>
+                <GarageArea>0</GarageArea>
+                <YearBuild>2013</YearBuild>
+                <UnitOfMeasue UnitOfMeasue="m2"/>
+                <PossessionDate>0001-01-01T00:00:00</PossessionDate>
+                <AvailabilityDate>0001-01-01T00:00:00</AvailabilityDate>
+                <OrigListingDate>2019-01-11T00:00:00</OrigListingDate>
+                <ExpiryDate>0001-01-01T00:00:00</ExpiryDate>
+                <AlternateURL/>
+                <VirtualTour/>
+                <Elevator>false</Elevator>
+                <Featured>false</Featured>
+                <ProjectName>{"en":"The Crest Sukhumvit 49","is":"The Crest Sukhumvit 49","th":"The Crest Sukhumvit
+                    49"}
+                </ProjectName>
+                <CompanyName>{"en":null,"is":null,"th":null}</CompanyName>
+                <UnitCode/>
+                <UnitType/>
+            </Information>
+            <Description>
+                <LanguageID/>
+                <DescriptionText>{"en":"&lt;p&gt;The Crest Sukhumvit 49&amp;nbsp;&lt;/p&gt;&lt;p&gt;เน€เธ”เธญเธฐเน€เธเธฃเธชเธ—เน
+                    เธชเธธเธเธธเธกเธงเธดเธ— 49&lt;/p&gt;&lt;p&gt;For rent เธฟ24,000&lt;/p&gt;&lt;p&gt;Meet the
+                    condominium in the city centre which provide all things you need such space, location, privacy and
+                    facility.&lt;/p&gt;&lt;p&gt;You will joy life's experience in the heart of the city while having a
+                    great relaxation at this living space, 8th floors condominium with 88 units. Close to Thong lo BTS
+                    Station, Public transportation, which can walk (7 min walk) or use shuttle bus service.&lt;/p&gt;&lt;p&gt;Location
+                    : https://goo.gl/maps/huuyhF2k7ru&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Room details&lt;/p&gt;&lt;p&gt;-
+                    34.3 sq.m room ( 1 bedroom, 1 bathroom )&lt;/p&gt;&lt;p&gt;- 5th floor, North side view&lt;/p&gt;&lt;p&gt;-
+                    Furniture and amenities&lt;/p&gt;&lt;p&gt;1. Electric appliances ( Television / Refrigerator /
+                    Microwave / Electric stove / 2 Air conditioning / Water heater )&lt;/p&gt;&lt;p&gt;2. Bed (5 FT
+                    Queen size)&lt;/p&gt;&lt;p&gt;3. Both Shower and Bath in the bathroom&lt;/p&gt;&lt;p&gt;4. Dining
+                    table and 2 chairs&lt;/p&gt;&lt;p&gt;5. Sofa in the living room&lt;/p&gt;&lt;p&gt;6. Built-in
+                    furniture e.g. closet , shelf and wardrobe&lt;/p&gt;&lt;p&gt;7. Smoke detector&lt;/p&gt;&lt;p&gt;8.
+                    Balcony&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Condominium facilities&lt;/p&gt;&lt;p&gt;1.
+                    Parking lot&lt;/p&gt;&lt;p&gt;2. Shuttle bus service ( Condo - BTS Thong lo - Supermarket -
+                    Samitivej Hospital )&lt;/p&gt;&lt;p&gt;3. Swimming pool and fitness centre&lt;/p&gt;&lt;p&gt;4.
+                    Rooftop garden&lt;/p&gt;&lt;p&gt;5. 24 hour Security staff&lt;/p&gt;&lt;p&gt;6. Security services
+                    e.g surveillance and fire protection system&lt;/p&gt;&lt;p&gt;7. Key card and password for access
+                    system ( elevator and room access )&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Surrounding place&lt;/p&gt;&lt;p&gt;1.
+                    Supermarket 190 m.&lt;/p&gt;&lt;p&gt;2. Spa and Onsen 70 m.&lt;/p&gt;&lt;p&gt;3. Samitivej Hospital
+                    500 m.&lt;/p&gt;&lt;p&gt;4. Sukhumvit 55 ( Thong lo ) 1 km.&lt;/p&gt;&lt;p&gt;5. Variety of foods
+                    and complex&lt;/p&gt;","th":"&lt;p&gt;The Crest Sukhumvit 49&amp;nbsp;&lt;/p&gt;&lt;p&gt;เน€เธ”เธญเธฐเน€เธเธฃเธชเธ—เน
+                    เธชเธธเธเธธเธกเธงเธดเธ— 49&lt;/p&gt;&lt;p&gt;For rent เธฟ24,000&lt;/p&gt;&lt;p&gt;Meet the
+                    condominium in the city centre which provide all things you need such space, location, privacy and
+                    facility.&lt;/p&gt;&lt;p&gt;You will joy life's experience in the heart of the city while having a
+                    great relaxation at this living space, 8th floors condominium with 88 units. Close to Thong lo BTS
+                    Station, Public transportation, which can walk (7 min walk) or use shuttle bus service.&lt;/p&gt;&lt;p&gt;Location
+                    : https://goo.gl/maps/huuyhF2k7ru&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Room details&lt;/p&gt;&lt;p&gt;-
+                    34.3 sq.m room ( 1 bedroom, 1 bathroom )&lt;/p&gt;&lt;p&gt;- 5th floor, North side view&lt;/p&gt;&lt;p&gt;-
+                    Furniture and amenities&lt;/p&gt;&lt;p&gt;1. Electric appliances ( Television / Refrigerator /
+                    Microwave / Electric stove / 2 Air conditioning / Water heater )&lt;/p&gt;&lt;p&gt;2. Bed (5 FT
+                    Queen size)&lt;/p&gt;&lt;p&gt;3. Both Shower and Bath in the bathroom&lt;/p&gt;&lt;p&gt;4. Dining
+                    table and 2 chairs&lt;/p&gt;&lt;p&gt;5. Sofa in the living room&lt;/p&gt;&lt;p&gt;6. Built-in
+                    furniture e.g. closet , shelf and wardrobe&lt;/p&gt;&lt;p&gt;7. Smoke detector&lt;/p&gt;&lt;p&gt;8.
+                    Balcony&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Condominium facilities&lt;/p&gt;&lt;p&gt;1.
+                    Parking lot&lt;/p&gt;&lt;p&gt;2. Shuttle bus service ( Condo - BTS Thong lo - Supermarket -
+                    Samitivej Hospital )&lt;/p&gt;&lt;p&gt;3. Swimming pool and fitness centre&lt;/p&gt;&lt;p&gt;4.
+                    Rooftop garden&lt;/p&gt;&lt;p&gt;5. 24 hour Security staff&lt;/p&gt;&lt;p&gt;6. Security services
+                    e.g surveillance and fire protection system&lt;/p&gt;&lt;p&gt;7. Key card and password for access
+                    system ( elevator and room access )&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Surrounding place&lt;/p&gt;&lt;p&gt;1.
+                    Supermarket 190 m.&lt;/p&gt;&lt;p&gt;2. Spa and Onsen 70 m.&lt;/p&gt;&lt;p&gt;3. Samitivej Hospital
+                    500 m.&lt;/p&gt;&lt;p&gt;4. Sukhumvit 55 ( Thong lo ) 1 km.&lt;/p&gt;&lt;p&gt;5. Variety of foods
+                    and complex&lt;/p&gt;","is":""}
+                </DescriptionText>
+            </Description>
+            <EnglishDescription>
+                <LanguageID/>
+                <DescriptionText>{"en":"&lt;p&gt;The Crest Sukhumvit 49&amp;nbsp;&lt;/p&gt;&lt;p&gt;เน€เธ”เธญเธฐเน€เธเธฃเธชเธ—เน
+                    เธชเธธเธเธธเธกเธงเธดเธ— 49&lt;/p&gt;&lt;p&gt;For rent เธฟ24,000&lt;/p&gt;&lt;p&gt;Meet the
+                    condominium in the city centre which provide all things you need such space, location, privacy and
+                    facility.&lt;/p&gt;&lt;p&gt;You will joy life's experience in the heart of the city while having a
+                    great relaxation at this living space, 8th floors condominium with 88 units. Close to Thong lo BTS
+                    Station, Public transportation, which can walk (7 min walk) or use shuttle bus service.&lt;/p&gt;&lt;p&gt;Location
+                    : https://goo.gl/maps/huuyhF2k7ru&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Room details&lt;/p&gt;&lt;p&gt;-
+                    34.3 sq.m room ( 1 bedroom, 1 bathroom )&lt;/p&gt;&lt;p&gt;- 5th floor, North side view&lt;/p&gt;&lt;p&gt;-
+                    Furniture and amenities&lt;/p&gt;&lt;p&gt;1. Electric appliances ( Television / Refrigerator /
+                    Microwave / Electric stove / 2 Air conditioning / Water heater )&lt;/p&gt;&lt;p&gt;2. Bed (5 FT
+                    Queen size)&lt;/p&gt;&lt;p&gt;3. Both Shower and Bath in the bathroom&lt;/p&gt;&lt;p&gt;4. Dining
+                    table and 2 chairs&lt;/p&gt;&lt;p&gt;5. Sofa in the living room&lt;/p&gt;&lt;p&gt;6. Built-in
+                    furniture e.g. closet , shelf and wardrobe&lt;/p&gt;&lt;p&gt;7. Smoke detector&lt;/p&gt;&lt;p&gt;8.
+                    Balcony&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Condominium facilities&lt;/p&gt;&lt;p&gt;1.
+                    Parking lot&lt;/p&gt;&lt;p&gt;2. Shuttle bus service ( Condo - BTS Thong lo - Supermarket -
+                    Samitivej Hospital )&lt;/p&gt;&lt;p&gt;3. Swimming pool and fitness centre&lt;/p&gt;&lt;p&gt;4.
+                    Rooftop garden&lt;/p&gt;&lt;p&gt;5. 24 hour Security staff&lt;/p&gt;&lt;p&gt;6. Security services
+                    e.g surveillance and fire protection system&lt;/p&gt;&lt;p&gt;7. Key card and password for access
+                    system ( elevator and room access )&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Surrounding place&lt;/p&gt;&lt;p&gt;1.
+                    Supermarket 190 m.&lt;/p&gt;&lt;p&gt;2. Spa and Onsen 70 m.&lt;/p&gt;&lt;p&gt;3. Samitivej Hospital
+                    500 m.&lt;/p&gt;&lt;p&gt;4. Sukhumvit 55 ( Thong lo ) 1 km.&lt;/p&gt;&lt;p&gt;5. Variety of foods
+                    and complex&lt;/p&gt;","th":"&lt;p&gt;The Crest Sukhumvit 49&amp;nbsp;&lt;/p&gt;&lt;p&gt;เน€เธ”เธญเธฐเน€เธเธฃเธชเธ—เน
+                    เธชเธธเธเธธเธกเธงเธดเธ— 49&lt;/p&gt;&lt;p&gt;For rent เธฟ24,000&lt;/p&gt;&lt;p&gt;Meet the
+                    condominium in the city centre which provide all things you need such space, location, privacy and
+                    facility.&lt;/p&gt;&lt;p&gt;You will joy life's experience in the heart of the city while having a
+                    great relaxation at this living space, 8th floors condominium with 88 units. Close to Thong lo BTS
+                    Station, Public transportation, which can walk (7 min walk) or use shuttle bus service.&lt;/p&gt;&lt;p&gt;Location
+                    : https://goo.gl/maps/huuyhF2k7ru&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Room details&lt;/p&gt;&lt;p&gt;-
+                    34.3 sq.m room ( 1 bedroom, 1 bathroom )&lt;/p&gt;&lt;p&gt;- 5th floor, North side view&lt;/p&gt;&lt;p&gt;-
+                    Furniture and amenities&lt;/p&gt;&lt;p&gt;1. Electric appliances ( Television / Refrigerator /
+                    Microwave / Electric stove / 2 Air conditioning / Water heater )&lt;/p&gt;&lt;p&gt;2. Bed (5 FT
+                    Queen size)&lt;/p&gt;&lt;p&gt;3. Both Shower and Bath in the bathroom&lt;/p&gt;&lt;p&gt;4. Dining
+                    table and 2 chairs&lt;/p&gt;&lt;p&gt;5. Sofa in the living room&lt;/p&gt;&lt;p&gt;6. Built-in
+                    furniture e.g. closet , shelf and wardrobe&lt;/p&gt;&lt;p&gt;7. Smoke detector&lt;/p&gt;&lt;p&gt;8.
+                    Balcony&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Condominium facilities&lt;/p&gt;&lt;p&gt;1.
+                    Parking lot&lt;/p&gt;&lt;p&gt;2. Shuttle bus service ( Condo - BTS Thong lo - Supermarket -
+                    Samitivej Hospital )&lt;/p&gt;&lt;p&gt;3. Swimming pool and fitness centre&lt;/p&gt;&lt;p&gt;4.
+                    Rooftop garden&lt;/p&gt;&lt;p&gt;5. 24 hour Security staff&lt;/p&gt;&lt;p&gt;6. Security services
+                    e.g surveillance and fire protection system&lt;/p&gt;&lt;p&gt;7. Key card and password for access
+                    system ( elevator and room access )&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Surrounding place&lt;/p&gt;&lt;p&gt;1.
+                    Supermarket 190 m.&lt;/p&gt;&lt;p&gt;2. Spa and Onsen 70 m.&lt;/p&gt;&lt;p&gt;3. Samitivej Hospital
+                    500 m.&lt;/p&gt;&lt;p&gt;4. Sukhumvit 55 ( Thong lo ) 1 km.&lt;/p&gt;&lt;p&gt;5. Variety of foods
+                    and complex&lt;/p&gt;","is":""}
+                </DescriptionText>
+            </EnglishDescription>
+            <Note/>
+            <Features>
+                <FeatureID>31</FeatureID>
+                <FeatureID>32</FeatureID>
+                <FeatureID>33</FeatureID>
+                <FeatureID>34</FeatureID>
+                <FeatureID>35</FeatureID>
+                <FeatureID>36</FeatureID>
+                <FeatureID>37</FeatureID>
+                <FeatureID>38</FeatureID>
+            </Features>
+            <Registration>
+                <OpenHouseStart>0544-01-01 00:00:00</OpenHouseStart>
+                <OpenHouseEnd>0544-01-01 00:00:00</OpenHouseEnd>
+                <RegDateRequested>0001-01-01</RegDateRequested>
+            </Registration>
+            <Commercial>
+                <CommNumberOfOffices>0</CommNumberOfOffices>
+                <CommNumberOfFloors>5</CommNumberOfFloors>
+                <CommTotalNumberOfRooms>2</CommTotalNumberOfRooms>
+                <CommBuildingFrontage/>
+                <CommClearanceHeight/>
+                <CommElevators>false</CommElevators>
+                <CommLeaseArea>0</CommLeaseArea>
+                <CommManufacturingSpace/>
+                <CommOfficeSpace/>
+                <CommParking/>
+                <CommPossessionDate/>
+                <CommPricePerArea>0</CommPricePerArea>
+                <CommRetailSpace/>
+                <CommTotalArea>0</CommTotalArea>
+                <CommUseableArea>0</CommUseableArea>
+                <CommWarehouseSpace/>
+                <CommYearBuilt>0000</CommYearBuilt>
+                <CommZoning/>
+            </Commercial>
+            <Images>
+                <DefaultImageSequenceNumber>1</DefaultImageSequenceNumber>
+                <Image/>
+            </Images>
+            <Files>
+                <File>
+                    <SequenceNumber>1</SequenceNumber>
+                    <FileName/>
+                    <FileType/>
+                    <URL/>
+                    <Description/>
+                </File>
+            </Files>
+            <Videos>
+                <DefaultVideoSequenceNumber>1</DefaultVideoSequenceNumber>
+            </Videos>
+        </Property>
+    </Properties>
+</UploadXML>

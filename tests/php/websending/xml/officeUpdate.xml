@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UploadXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <System>
+        <PublicKey/>
+        <Version>MAP 1.1</Version>
+        <SystemName>Saga</SystemName>
+        <SentData Order="Update" SentDate="2018-08-13 08:12:52" Type="Office"/>
+    </System>
+    <Offices>
+        <Office>
+            <Address Country="TH">
+                <HouseAddress>xxxxx</HouseAddress>
+                <Street>yyyy</Street>
+                <PostalCodeID>102602</PostalCodeID>
+                <TownID>1026</TownID>
+                <RegionID>11</RegionID>
+                <Latitude>2.2</Latitude>
+                <Longitude>2.3</Longitude>
+            </Address>
+            <Information>
+                <OfficeID>114</OfficeID>
+                <OfficeName>IHouse Bangkok Updated</OfficeName>
+                <Email>admin-updated@ihousebangkok.co.th</Email>
+                <Fax/>
+                <Phone/>
+                <URLToPrivatePage>http://ihousebangkok.softverk.co.th/</URLToPrivatePage>
+                <logo>http://saga.softverk.co.th/saga.transport/map/-1/Office/office_114.jpg</logo>
+                <MarketingInfo>
+                    <LanguageID/>
+                    <OfficeDescription>&lt;p&gt;Updated Description&lt;/p&gt;</OfficeDescription>
+                    <Slogan>&lt;p&gt;Updated Slogan&lt;/p&gt;</Slogan>
+                    <Closer>&lt;p&gt;Updated Closer&lt;/p&gt;</Closer>
+                    <BulletPoint1>&lt;p&gt;Updated Marketing 1&lt;/p&gt;</BulletPoint1>
+                    <BulletPoint2>&lt;p&gt;Updated Marketing 2&lt;/p&gt;</BulletPoint2>
+                    <BulletPoint3>&lt;p&gt;Updated Marketing 3&lt;/p&gt;</BulletPoint3>
+                </MarketingInfo>
+                <ShowOnWeb>false</ShowOnWeb>
+            </Information>
+            <Images>
+                <DefaultImageSequenceNumber>1</DefaultImageSequenceNumber>
+                <Image>
+                    <SequenceNumber>1</SequenceNumber>
+                    <FileName>http://saga.softverk.co.th/saga.transport/map/-1/Office/office_114.jpg</FileName>
+                    <DescriptiveName/>
+                    <Alt/>
+                </Image>
+            </Images>
+        </Office>
+    </Offices>
+</UploadXML>

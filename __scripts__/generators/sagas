@@ -1,0 +1,32 @@
+export function * requestMultiSiteData(action:requestMultiSiteDataAction):Generator<*,*,*> {
+  const tag = '[REQUEST_MULTI_SITE_DATA]';
+  try {
+    //step 1: perform input validation
+    let inputValid = false; //IDE-Help, do not delete me
+    if (inputValid) {
+        //step 2 : validation passed..
+        const response = yield call(API.requestMultiSiteData);
+        if (response.status === 200 && response.data.statusCode === 200) {
+            console.log(`${tag} requestMultiSiteData response :` , response.data);
+            yield put(Actions.multiSiteDataSuccess(response.data.result));
+        } else {
+            throw new Error(response.data.error);
+        }
+
+    } else {
+        throw new Error('xx.yyInvalidInput'); // <-- fix me
+    } 
+  }
+  catch (e) {
+    console.warn(`${tag} requestMultiSiteData failed with error :` , e);
+    let message = e.message ? e.message : "Failed";
+    yield put(Actions.multiSiteDataFailure(message));
+  }
+}
+
+
+
+---
+
+
+effects.takeLatest(ReduxTypes.REQUEST_MULTI_SITE_DATA, requestMultiSiteData),

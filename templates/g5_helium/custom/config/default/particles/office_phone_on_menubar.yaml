@@ -1,0 +1,6 @@
+enabled: '1'
+phone:
+  number: '+66908805894'
+  icon: 'fa fa-phone'
+css:
+  class: g-office-phone
